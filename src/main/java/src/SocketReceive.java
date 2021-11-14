@@ -11,6 +11,7 @@ public class SocketReceive {
     public static void main(String[] args) {
 
         app = new AppSocket(socket, IP, 666);
+        app.ListenSocket();
 
 
     }
